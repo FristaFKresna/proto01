@@ -7,14 +7,14 @@
 }
 
 .product-image{
-    width: 50%;
-    margin-left: 250px
+    height: 500px;
+    width: 500px;
 }
 
 
 @media only screen and (max-width: 600px) {
     .product-image{
-        width: 80%;
-        margin-left: 30px
+        height: 400px;
+        width: 400px;
     }
   }

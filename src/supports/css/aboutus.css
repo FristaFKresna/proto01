@@ -1,0 +1,22 @@
+.wrapper-about{
+    margin: 30px 0 30px 0;
+}
+
+.title-about{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo-about{
+    border-radius: 100%;
+}
+
+.text-about{
+    align-self: center;
+    padding: 30px 30px;
+    margin : 0 20px;
+    background-color: whitesmoke;
+    border-radius: 10%;
+
+}
+

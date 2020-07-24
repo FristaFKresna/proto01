@@ -59,7 +59,7 @@ const Products = (props) => {
   });
 
   return (
-    <div id='products' className="container wrapper-product">
+    <div id='products' className="d-flex flex-column align-items-center wrapper-product">
         <h2 className='title-product'>Our Products</h2>
         <Carousel
         activeIndex={activeIndex}
