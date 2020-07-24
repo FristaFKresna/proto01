@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/proto01/static/css/main.adc852b8.chunk.css",
+    "main.js": "/proto01/static/js/main.7dfd71b9.chunk.js",
+    "main.js.map": "/proto01/static/js/main.7dfd71b9.chunk.js.map",
+    "runtime-main.js": "/proto01/static/js/runtime-main.86e3feb2.js",
+    "runtime-main.js.map": "/proto01/static/js/runtime-main.86e3feb2.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/proto01/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0016957f.chunk.js": "/proto01/static/js/2.0016957f.chunk.js",
+    "static/js/2.0016957f.chunk.js.map": "/proto01/static/js/2.0016957f.chunk.js.map",
+    "index.html": "/proto01/index.html",
+    "precache-manifest.bc599919ba099e66336b5e19b0a78cc1.js": "/proto01/precache-manifest.bc599919ba099e66336b5e19b0a78cc1.js",
+    "service-worker.js": "/proto01/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/proto01/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.adc852b8.chunk.css.map": "/proto01/static/css/main.adc852b8.chunk.css.map",
+    "static/js/2.0016957f.chunk.js.LICENSE.txt": "/proto01/static/js/2.0016957f.chunk.js.LICENSE.txt",
+    "static/media/instagram.png": "/proto01/static/media/instagram.5c570427.png",
+    "static/media/logoNannys.png": "/proto01/static/media/logoNannys.ffda0c9a.png",
+    "static/media/low.png": "/proto01/static/media/low.271c5e79.png",
+    "static/media/package.png": "/proto01/static/media/package.3331eda2.png",
+    "static/media/product (1).jpg": "/proto01/static/media/product (1).04c26947.jpg",
+    "static/media/product (2).jpg": "/proto01/static/media/product (2).a2ea8677.jpg",
+    "static/media/product (3).jpg": "/proto01/static/media/product (3).6923b929.jpg",
+    "static/media/sampel_gmap.jpg": "/proto01/static/media/sampel_gmap.9f0f6389.jpg",
+    "static/media/scenery1.jpg": "/proto01/static/media/scenery1.fb87c131.jpg",
+    "static/media/scenery2.jpg": "/proto01/static/media/scenery2.ea3424e4.jpg",
+    "static/media/scenery3.jpg": "/proto01/static/media/scenery3.b482aed2.jpg",
+    "static/media/trust.png": "/proto01/static/media/trust.3f28ba3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86e3feb2.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0016957f.chunk.js",
+    "static/css/main.adc852b8.chunk.css",
+    "static/js/main.7dfd71b9.chunk.js"
+  ]
+}
