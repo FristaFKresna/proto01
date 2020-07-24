@@ -1,0 +1,57 @@
+.title{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.wrapper{
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 40px;
+}
+
+.wrapper-office{
+    margin : 40px 40px 40px 40px;
+}
+
+.wrapper-map{
+    margin: 40px 100px 40px -100px;
+}
+
+.content-office div{
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.social-media{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin: 0 0 0 20px;
+}
+
+.location{
+    height: 300px;
+    width: 500px;
+}
+
+.copyright{
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+.copyright-text{
+    border-top: 0.5px solid gray;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper-map{
+        margin: 40px 100px 40px -40px;
+    }
+    .location{
+        height: 250px;
+        width: 450px;
+    }
+  }

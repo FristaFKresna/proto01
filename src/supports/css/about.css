@@ -1,0 +1,34 @@
+.content{
+    margin: 30px 0 30px 0;
+}
+
+.about{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo-about{
+    border-radius: 100%;
+    width: fit-content;
+}
+
+.about-desc{
+    padding : 7vh 0 0 0;
+}
+
+.text-desc{
+    background-color: whitesmoke;
+    border-radius: 10%;
+    padding : 20px
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-about{
+        border-radius: 100%;
+        width: 90%;
+        margin-left: 3vh;
+    }
+    .about-desc{
+        padding : 2vh 0 0 0;
+    }
+  }

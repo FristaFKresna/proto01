@@ -1,0 +1,29 @@
+.pict{
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper-motto{
+    justify-content: center;
+}
+
+.pict-motto{
+    justify-content: space-between;
+}
+
+.text-motto-all{
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px
+}
+
+.low-price{
+    margin-left: 18px;
+}
+
+.trusted{
+    margin-left: 10px;
+}
+
+.secure{
+    margin-right: 25px;
+}
