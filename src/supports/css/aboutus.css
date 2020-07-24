@@ -20,3 +20,19 @@
 
 }
 
+.wrapper-logo-text{
+    margin : 0 20vh
+}
+
+
+@media only screen and (max-width: 600px) {
+    .wrapper-logo-text{
+        margin : 0 0
+    }
+    .logo-about{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+  }
+
