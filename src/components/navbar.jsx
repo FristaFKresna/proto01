@@ -32,7 +32,7 @@ const Navigation = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href='/'><div className='navigation-item'>Home</div></NavLink>
+              <NavLink href='/proto01'><div className='navigation-item'>Home</div></NavLink>
             </NavItem>
             <NavItem>
               <NavLink href='#about'><div className='navigation-item'>About Us</div></NavLink>

@@ -11,3 +11,9 @@
     font-size: 20px;
     margin: 0 20px 0 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .navigation{
+        font-size: 18px;
+    }
+  }

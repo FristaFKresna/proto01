@@ -9,6 +9,7 @@ import product1 from './../public/products/product (1).jpg'
 import product2 from './../public/products/product (2).jpg'
 import product3 from './../public/products/product (3).jpg'
 import './../supports/css/products.css'
+import Zoom from 'react-reveal/Zoom';
 
 const items = [
   {
@@ -60,18 +61,22 @@ const Products = (props) => {
 
   return (
     <div id='products' className="d-flex flex-column align-items-center wrapper-product">
-        <h2 className='title-product'>Our Products</h2>
-        <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-        >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-        </Carousel>
+        <Zoom right cascade delay={1500} >
+          <h2 className='title-product'>Our Products</h2>
+        </Zoom>
 
+        <Zoom delay={2000} >
+          <Carousel
+          activeIndex={activeIndex}
+          next={next}
+          previous={previous}
+          >
+          <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+          {slides}
+          <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+          <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+          </Carousel>
+        </Zoom>
     </div>
   );
 }
