@@ -61,11 +61,11 @@ const Products = (props) => {
 
   return (
     <div id='products' className="d-flex flex-column align-items-center wrapper-product">
-        <Zoom right cascade delay={1500} >
+        <Zoom right cascade>
           <h2 className='title-product'>Our Products</h2>
         </Zoom>
 
-        <Zoom delay={2000} >
+        <Zoom>
           <Carousel
           activeIndex={activeIndex}
           next={next}

@@ -11,7 +11,7 @@ class Motto extends React.Component{
         return(
             <div className="container">
                 <div className="d-flex justify-content-around">
-                    <Fade top cascade delay={2500} >
+                    <Fade top cascade >
                         <div className="d-flex flex-column align-items-center">
                             <img src={low} alt='low' className='pict-motto' />
                             <div>Low Price</div>

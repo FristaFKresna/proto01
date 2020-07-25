@@ -1,8 +1,11 @@
 .navigation{
     font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 3px;
 }
 
 .logo{
+    margin-left: 20px;
     border-radius: 100px;
     object-fit: cover;
 }
@@ -15,5 +18,12 @@
 @media only screen and (max-width: 600px) {
     .navigation{
         font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .logo{
+        border-radius: 100px;
+        object-fit: cover;
+        margin-left: 0px;
     }
   }

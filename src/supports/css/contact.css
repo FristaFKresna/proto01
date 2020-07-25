@@ -25,6 +25,10 @@
     margin: 0 0 0 20px;
 }
 
+.wrapper-office{
+    margin: 0 150px 0 130px;
+}
+
 .location{
     height: 300px;
     width: 500px;
@@ -40,8 +44,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .location{
-        height: 200px;
-        width: 400px;
+    .wrapper-office{
+        margin : 30px 0
     }
   }

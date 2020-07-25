@@ -2,7 +2,6 @@ import React from 'react'
 import './../supports/css/contact.css'
 import logo1 from './../public/facebook.png'
 import logo2 from './../public/instagram.png'
-import sampel from './../public/sampel_gmap.jpg'
 import { MapCompany } from './map'
 
 class Contact extends React.Component{
@@ -11,8 +10,9 @@ class Contact extends React.Component{
             <div id='contact' className="container-fluid d-flex flex-column wrapper">
                 <h2 className='title'>Contact Us</h2>
                 
-                <div className="d-flex justify-content-around flex-lg-row flex-column wrapper-contact">
-                    <div className="d-flex flex-column">
+                <div className="d-flex justify-content-center flex-lg-row flex-column wrapper-contact">
+                    <MapCompany/>
+                    <div className="d-flex flex-column wrapper-office">
                         <h3>Office :</h3>
                         <div className='content-office'>
                             <div>Jalan Trunojoyo no 11</div>
@@ -22,7 +22,7 @@ class Contact extends React.Component{
                             <div>Phone : +62-857-7702-6189</div>
                         </div>
                     </div>
-                    <img alt='map' className='location' src={sampel}/>
+                    {/* <img alt='map' className='location' src={sampel}/> */}
                     <div className="d-flex flex-column">
                         <h3>Social Media</h3>
                         <div className='row'>

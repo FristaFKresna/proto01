@@ -17,16 +17,19 @@ const Navigation = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className='fixed-top'>
+    <div className='sticky-top'>
       <Navbar color="light" light expand="md">
-        <NavbarBrand>
+        {/* <NavbarBrand>
             <img className='logo' alt='logo' src={logo} width={50} />
-        </NavbarBrand>
+        </NavbarBrand> */}
 
         <NavbarBrand>
+          <div className="d-flex align-items-center">
+            <img className='logo' alt='logo' src={logo} width={40} />
             <div className='navigation'>
                 Nanny's Warehouse
             </div>
+          </div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

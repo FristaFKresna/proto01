@@ -7,14 +7,14 @@ class About extends React.Component{
     render(){
         return(
             <div id='about' className="d-flex flex-column wrapper-about">
-                <Fade delay={500}>
+                <Fade>
                     <h2 className='title-about'>About Us</h2>
                 </Fade>
                 <div className='d-flex flex-column flex-lg-row wrapper-logo-text'>
-                    <Fade left delay={1000} >
+                    <Fade left>
                         <img src={logo} alt='logo' className='logo-about' />
                     </Fade>
-                    <Fade right delay={1000} >
+                    <Fade right>
                         <div className='text-about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut finibus purus. Nullam aliquet quis sem nec ullamcorper. Cras non consequat augue. Praesent congue sapien in felis facilisis scelerisque. Vestibulum sed ipsum eu erat varius ultricies eu sed diam. Morbi eleifend massa vitae euismod rutrum. Nullam aliquam magna elit, ac commodo ante placerat et. Sed condimentum dolor dolor, sed porttitor lectus fringilla nec. Vestibulum non egestas arcu, vitae pretium odio. Etiam diam augue, hendrerit eget semper quis, iaculis nec lectus. Morbi pulvinar leo mauris, a suscipit augue commodo at. Curabitur suscipit placerat malesuada. Vivamus nec lectus sed mauris iaculis ultrices sit amet id massa. Donec semper, eros sit amet viverra rhoncus, felis quam scelerisque ex, vitae sollicitudin justo sem quis tortor. Fusce ac lobortis mi. Aliquam erat volutpat.</div>
                     </Fade>
                 </div>
