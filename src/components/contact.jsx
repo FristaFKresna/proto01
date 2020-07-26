@@ -11,7 +11,9 @@ class Contact extends React.Component{
                 <h2 className='title'>Contact Us</h2>
                 
                 <div className="d-flex justify-content-center flex-lg-row flex-column wrapper-contact">
-                    <MapCompany/>
+                    <span className='map-container'>
+                        <MapCompany/>
+                    </span>
                     <div className="d-flex flex-column wrapper-office">
                         <h3>Office :</h3>
                         <div className='content-office'>

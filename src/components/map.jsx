@@ -14,7 +14,7 @@ export const MapCompany = () => {
         zoom={[16]}
         containerStyle={{
           height: '250px',
-          width: '400px',
+          width: '350px',
           borderRadius:'5%'
         }} >
             <ZoomControl/>
