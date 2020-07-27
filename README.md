@@ -1,3 +1,12 @@
+
+### 'Please kindly check this link to see the UI'
+
+https://fristafkresna.github.io/proto01
+
+![ui](docs/proto01.png)
+
+![ui-2](docs/proto01-2.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
