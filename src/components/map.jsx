@@ -12,11 +12,8 @@ export const MapCompany = () => {
         style="mapbox://styles/mapbox/light-v10"
         center={[107.613198, -6.904671]}
         zoom={[16]}
-        containerStyle={{
-          height: '250px',
-          width: '350px',
-          borderRadius:'5%'
-        }} >
+        className='map-container'
+        >
             <ZoomControl/>
             <Marker
             coordinates={[107.613198, -6.904671]}
